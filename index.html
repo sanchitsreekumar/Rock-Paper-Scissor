@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8>" />
+  <title>Rock Papaer Scissors</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Rock Paper Scissors</h1>
+  </header>
+
+  <div class="score-board">
+    <div id="user-label" class="badge">user</div>
+    <div id="computer-label" class="badge">comp</div>
+    <span id="user-score">0</span> : <span id="computer-score">0</span>
+  </div>
+
+  <div id="result1" class="result">
+    <p>You Win!</p>
+  </div>
+  <div id="result2" class="result">
+    <p>You Lose!</p>
+  </div>
+  <div id="result3" class="result">
+    <p>Draw!</p>
+  </div>
+
+  <div class="choices">
+    <div id="rock" class="choice">
+      <img id="rock1" src="rock.png" alt="">
+    </div>
+    <div id="paper" class="choice">
+      <img id="paper1" src="paper.png" alt="">
+    </div>
+    <div id="scissors" class="choice">
+      <img id="scissors1" src="scissor.png" alt="">
+    </div>
+    <p id="action-message">Make your move.</p>
+    <!-- <p> You are in Green</p>
+    <p> Computer is in Red</p> -->
+  </div>
+  <script src="app.js"></script>
+</body>
+
+</html>
